@@ -48,7 +48,7 @@ sh '. /etc/profile.d/sonar-scanner.sh'
 stage('Analyzing Code Quality') {
 steps {
 // Step to analyze code quality with SonarQube
-sh '/opt/sonar-scanner/bin/sonar-scanner -Dsonar.projectKey=AparnaS-ingh_javaproj -Dsonar.organization=AparnaS-ingh -Dsonar.qualitygate.wait=true -Dsonar.qualitygate.timeout=300 -Dsonar.sources=src/main/java/ -Dsonar.java.binaries=target/classes -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=3a0505be1d20a5c9fb2e6445fff346043aa5b957'
+sh '/opt/sonar-scanner/bin/sonar-scanner -Dsonar.projectKey=AparnaS-ingh_javaproj -Dsonar.organization=aparnas-ingh -Dsonar.qualitygate.wait=true -Dsonar.qualitygate.timeout=300 -Dsonar.sources=src/main/java/ -Dsonar.java.binaries=target/classes -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=3a0505be1d20a5c9fb2e6445fff346043aa5b957'
 }
 }
 }
