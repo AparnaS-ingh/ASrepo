@@ -14,7 +14,7 @@ sh 'mvn compile'
 sh 'mvn test'
 }
 }
-stage('Generating a Cucumber Reports') {
+stage('Generating a Cucumber Reports test') {
 steps {
 script {
 // Run Cucumber tests and generate reports
