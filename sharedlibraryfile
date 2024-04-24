@@ -1,4 +1,4 @@
-@Library('Library') _
+@Library('ShaLibrary') _
 def config = [name: 'Newman', dayOfWeek: 'Friday']
 pipeline {
  agent any
