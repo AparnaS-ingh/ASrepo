@@ -9,7 +9,7 @@ stages {
   }
 stage('Build') {
   steps {
-// Build the Java application (replace with your build commands)
+// Build the Java applications (replace with your build commands)
   sh 'javac -version'
  }
 }
